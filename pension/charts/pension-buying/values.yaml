@@ -75,14 +75,14 @@ resources:
   #   memory: 128Mi
 
 livenessProbe:
-  initialDelaySeconds: 600
+  initialDelaySeconds: 100
   failureThreshold: 3
   successThreshold: 1
   httpGet:
     path: /actuator/health
     port: 8081
 readinessProbe:
-  initialDelaySeconds: 600
+  initialDelaySeconds: 100
   failureThreshold: 3
   successThreshold: 1
   httpGet:
