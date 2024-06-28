@@ -96,8 +96,6 @@ env:
     value: "1234"
   - name: "SPRING_JPA_HIBERNATE_DDL_AUTO"
     value: "none"
-  - name: "SPRING_JPA_DATABASE-PLATFORM"
-    value: "org.hibernate.dialect.MySQLDialect"
 
 autoscaling:
   enabled: false
